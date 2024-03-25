@@ -1,0 +1,20 @@
+{
+  "name": "smart-contracts-final",
+  "version": "1.0.0",
+  "description": "1. **Decentralized Storage (IPFS)**: Utilizing IPFS for off-chain data storage while keeping references on-chain strikes a balance between blockchain's immutability and the need for cost-effective, scalable storage solutions. This approach addresses Ethereum's limitations regarding data storage costs and scalability.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainlink/contracts": "^0.8.0",
+    "@openzeppelin/contracts": "^5.0.2"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.2"
+  }
+}
